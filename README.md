@@ -6,7 +6,7 @@ multi-cluster monitoring
 ```
 kubectl create ns monitoring
 ```
-Change Value Like data-producer-1,2,...
+* Change Value Like data-producer-1,2,...
 ```
 helm install kube-prometheus bitnami/kube-prometheus --set prometheus.thanos.create=true --set operator.service.type=ClusterIP --set prometheus.service.type=ClusterIP --set alertmanager.service.type=ClusterIP --set prometheus.thanos.service.type=LoadBalancer --set prometheus.externalLabels.cluster="data-producer-1" -n monitoring
 ```
