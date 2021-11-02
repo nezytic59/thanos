@@ -18,7 +18,7 @@ $ git clone https://github.com/59nezytic/thanos.git
 ```
 $ cd thanos
 ```
-* Edit values.yaml for your own settings. (<YOUR_EDGE_MASTER_1_IP>)
+* Edit values.yaml for your own settings. <YOUR_EDGE_MASTER_1_IP>
 ```
 $ kubectl create ns monitoring
 ```
