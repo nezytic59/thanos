@@ -39,4 +39,4 @@ $ helm install thanos --values values.yaml --namespace monitoring bitnami/thanos
 
 * Create-import-import via panel json (This file is 'grafana-dashboard-thanos.json', so copy and paste it)
 
-![image](https://user-images.githubusercontent.com/55429907/139819147-e8b32e45-3a6d-4477-b22a-f2ceb9b2ff07.png)
+![image](https://user-images.githubusercontent.com/55429907/139819566-5cc38234-95dc-4bf4-a7aa-1041d297c2b1.png)
