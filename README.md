@@ -18,7 +18,7 @@ $ git clone https://github.com/59nezytic/thanos.git
 ```
 $ cd thanos
 ```
-* Change value at values.yaml, data-producer-1,2,... IP to your Node IP
+* Change value at values.yaml, data-producer-1,2,... IP to your Edge-cluster IP
 ```
 $ kubectl create ns monitoring
 ```
