@@ -1,0 +1,2 @@
+# thanos
+multi-cluster monitoring
