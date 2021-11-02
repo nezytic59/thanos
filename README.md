@@ -13,6 +13,8 @@ helm install kube-prometheus bitnami/kube-prometheus --set prometheus.thanos.cre
 
 ## Core-cluster
 ```
+gitclone 
+
 kubectl create ns monitoring
 
 helm install kube-prometheus bitnami/kube-prometheus --set prometheus.thanos.create=true --set operator.service.type=ClusterIP --set prometheus.service.type=ClusterIP --set alertmanager.service.type=ClusterIP --set prometheus.thanos.service.type=LoadBalancer -n monitoring
