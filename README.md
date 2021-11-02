@@ -13,7 +13,9 @@ helm install kube-prometheus bitnami/kube-prometheus --set prometheus.thanos.cre
 
 ## Core-cluster
 ```
-gitclone 
+git clone https://github.com/59nezytic/thanos.git
+
+cd thanos
 
 kubectl create ns monitoring
 
